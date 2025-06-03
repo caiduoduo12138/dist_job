@@ -28,19 +28,15 @@ kubernetes作业需要用户正确安装所需要的环境，例如cuda,torch,nc
 
 ### 3.示例
 
-我们提供了示例代码工程，在[这里]([caiduoduo12138/dist_job: reference code for multi-gpus-cross-node job](https://github.com/caiduoduo12138/dist_job))。请参考如下步骤：
+我们提供了示例代码工程，在[这里]([dist_job/mask-rcnn.zip at main · caiduoduo12138/dist_job](https://github.com/caiduoduo12138/dist_job/blob/main/mask-rcnn.zip))。请参考如下步骤：
 
-* 上传并解压文件
+* 上传并解压文件（存储->文件管理->用户名->上传文->解压）
 
-![](./imgs/img2.jpg)
+![](./imgs/img2.png)
 
 * 选择参数
   
-  ![](./imgs/img3.jpg)
-  
-  ![](./imgs/img4.jpg)
-  
-  :::note
+  ![](./imgs/img3.png)![](./imgs/img4.png)::note
   
   * 节点数量是指调度的机器数量；
   
@@ -50,9 +46,10 @@ kubernetes作业需要用户正确安装所需要的环境，例如cuda,torch,nc
   
   * 执行文件是`train.py`
   
-  * 训练代码路径需要根据实际情况进行设置，请选择到代码工程的目录（上传的文件目录）
+  * 训练代码路径需要根据实际情况进行设置，请选择到代码工程的目录（上传的文件目录，该示例为包含train.py的文件夹层级）
   
   * 安装相关依赖，这个在本示例中是，`pip install -r requirements.tx`
+    
     :::
 
 * 提交作业
